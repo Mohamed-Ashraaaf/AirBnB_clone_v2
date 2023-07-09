@@ -2,6 +2,7 @@
 """ Fabfile that create a .tgz archive from
 the contents of web_static folder"""
 
+# if __name__ == '__main__':
 from fabric.api import local
 from datetime import datetime
 
