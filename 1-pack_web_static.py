@@ -6,6 +6,7 @@ the contents of web_static folder"""
 from fabric.api import local
 from datetime import datetime
 
+
 def do_pack():
     """Pack all the contents in the web_static directory
     as a tar archive"""
